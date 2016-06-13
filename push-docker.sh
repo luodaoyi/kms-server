@@ -1,1 +1,1 @@
-docker push jackli/kms-server:latest 
+docker push lobjianli/kms-server:latest 
