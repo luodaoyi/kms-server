@@ -1,1 +1,1 @@
-docker build -t lobjianli/kms-server:latest .
+docker build -t luodaoyi/kms-server:latest .

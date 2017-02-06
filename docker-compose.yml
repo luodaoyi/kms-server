@@ -1,4 +1,4 @@
 kms-server:
-  image: jackli/kms-server:latest
+  image: luodaoyi/kms-server:latest
   ports:
     - 1688:1688 
