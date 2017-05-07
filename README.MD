@@ -34,13 +34,14 @@ slmgr /ato
 
 这句命令的意思是，马上对当前设置的key和服务器地址等进行尝试激活操作。
 
-kms激活的前提是你的系统是批量授权版本，即VL版，一般企业版都是VL版，专业版有零售和VL版，家庭版旗舰版OEM版等等那就肯定不能用kms激活。一般建议从[http://msdn.itellyou.cn]上面下载系统
+kms激活的前提是你的系统是批量授权版本，即VL版，一般企业版都是VL版，专业版有零售和VL版，家庭版旗舰版OEM版等等那就肯定不能用kms激活。一般建议从[http://msdn.itellyou.cn](http://msdn.itellyou.cn)上面下载系统
 VL版本的镜像一般内置GVLK key，用于kms激活。如果你手动输过其他key，那么这个内置的key就会被替换掉，这个时候如果你想用kms，那么就需要把GVLK key输回去。首先，
-到[https://technet.microsoft.com/en-us/library/jj612867.aspx]
+到[https://technet.microsoft.com/en-us/library/jj612867.aspx](https://technet.microsoft.com/en-us/library/jj612867.aspx)
 获取你对应版本的KEY
 如果打不开下面有对应的
 
 如果不知道自己的系统是什么版本，可以运行以下命令查看系统版本：
+
 ```
 wmic os get caption
 ```
@@ -57,13 +58,17 @@ slmgr /ipk xxxxx-xxxxx-xxxxx-xxxxx
 
 首先你的OFFICE必须是VOL版本，否则无法激活。
 找到你的office安装目录，比如
+
 ```
 C:\Program Files (x86)\Microsoft Office\Office16
 ```
+
 64位的就是
+
 ```
 C:\Program Files\Microsoft Office\Office16
 ```
+
 office16是office2016，office15就是2013，office14就是2010.
 
 然后目录对的话，该目录下面应该有个OSPP.VBS。
@@ -86,6 +91,7 @@ cscript ospp.vbs /sethst:kms.luody.info
 ```
 cscript "C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /sethst:kms.luody.info
 ```
+
 一般来说，“一句命令已经完成了”，但一般office不会马上连接kms服务器进行激活，所以我们额外补充一条手动激活命令：
 
 ```
@@ -105,7 +111,7 @@ cscript ospp.vbs /act
 
 # Windows GVLK密钥对照表（KMS激活专用）
 
- >以下key来源于微软官网：[https://technet.microsoft.com/en-us/library/jj612867.aspx]
+ >以下key来源于微软官网：[https://technet.microsoft.com/en-us/library/jj612867.aspx](https://technet.microsoft.com/en-us/library/jj612867.aspx)
 ## Windows Server 2016
 操作系统       | KMS激活序列号
 -------------------------------|------------------------------
@@ -186,3 +192,4 @@ Windows Server 2008 HPC |RCTX3-KWVHP-BR6TB-RB6DM-6X7HP
 Windows Server 2008 Datacenter |7M67G-PC374-GR742-YH8V4-TCBY3
 Windows Server 2008 Datacenter without Hyper-V |22XQ2-VRXRG-P8D42-K34TD-G3QQC
 Windows Server 2008 for Itanium-Based Systems |4DWFP-JF3DJ-B7DTH-78FJB-PDRHK
+
