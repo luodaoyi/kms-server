@@ -5,16 +5,23 @@
 kms.luody.info
 ```
 
+
+## 导航
+* [Docker使用方法](#docker)
+* [KMS激活使用方法](#kmsuse)
+* [Windows GVLK密钥对照表](#windows-vlk)
+* [vol版office下载](#vol-office)
+
 ## kms version:
 ```
 vlmcsd-1108-2017-01-19-Hotbird64
 ```
-# Docker使用方法：
+#  <a name="docker">Docker使用方法：</a> 
 
 只需要绑定1688端口即可对外开放1688 就可以用来激活了
 
 # 延伸教学：
-## KMS激活使用方法
+## <a name="kmsuse">KMS激活使用方法</a> 
 
 一般来说，只要确保的下载的是VL批量版本并且没有手动安装过任何key，
 你只需要使用管理员权限运行cmd执行一句命令就足够：
@@ -109,7 +116,8 @@ cscript ospp.vbs /act
 >1. 服务器繁忙，多试试（点击检查KMS服务是否可用）
 >1. 根据出错代码自己搜索出错原因
 
-# Windows GVLK密钥对照表（KMS激活专用）
+
+# <a name="windows-vlk">Windows GVLK密钥对照表（KMS激活专用）</a> 
 
  >以下key来源于微软官网：[https://technet.microsoft.com/en-us/library/jj612867.aspx](https://technet.microsoft.com/en-us/library/jj612867.aspx)
 ## Windows Server 2016
@@ -194,4 +202,27 @@ Windows Server 2008 Datacenter without Hyper-V |22XQ2-VRXRG-P8D42-K34TD-G3QQC
 Windows Server 2008 for Itanium-Based Systems |4DWFP-JF3DJ-B7DTH-78FJB-PDRHK
 
 
-TODO:office
+# <a name="vol-office">vol版office下载</a>
+
+
+```
+版本名称：Office 2016 Pro Plus 64位
+文件名称：SW_DVD5_Office_Professional_Plus_2016_64Bit_ChnSimp_MLF_X20-42426.ISO
+文件大小：1123452928 字节
+SHA-1 值：AEB58DE1BC97685F8BC6BFB0A614A8EF6903E318
+下载地址：ed2k://|file|SW_DVD5_Office_Professional_Plus_2016_64Bit_ChnSimp_MLF_X20-42426.ISO|1123452928|31087A00FF67D4F5B4CBF4AA07C3433B|/
+
+```
+
+
+```
+版本名称：Office 2016 Project 专业版 64位版
+文件名称：SW_DVD5_Project_Pro_2016_64Bit_ChnSimp_MLF_X20-42676.ISO
+下载地址：ed2k://|file|SW_DVD5_Project_Pro_2016_64Bit_ChnSimp_MLF_X20-42676.ISO|647157760|0BBBF20CA3A5F61A819586ADCE6E4DCB|/
+```
+
+```
+版本名称：Office 2016 Visio 专业版 64位版
+文件名称：SW_DVD5_Visio_Pro_2016_64Bit_ChnSimp_MLF_X20-42759.ISO
+下载地址：ed2k://|file|SW_DVD5_Visio_Pro_2016_64Bit_ChnSimp_MLF_X20-42759.ISO|714913792|FC930AB97B366B3595FC2F28ABAC2A6F|/
+```
