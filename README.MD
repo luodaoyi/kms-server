@@ -14,7 +14,7 @@ kms.luody.info
 
 ## kms version:
 ```
-vlmcsd-1108-2017-01-19-Hotbird64
+vlmcsd-1111-2017-06-17-Hotbird64
 ```
 #  <a name="docker">Docker使用方法：</a> 
 
