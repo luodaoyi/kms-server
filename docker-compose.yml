@@ -1,4 +1,5 @@
 kms-server:
   image: luodaoyi/kms-server:latest
   ports:
-    - 1688:1688 
+    - 1688:1688
+  restart: always

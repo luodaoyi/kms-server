@@ -1,7 +1,5 @@
 # kms server docker image
 
-> 7zip 解压密码为:  2020
-
 ## 直接可用的地址：
 
 ```
@@ -9,7 +7,10 @@ kms.luody.info
 ```
 
 ## kms version:
+> 7zip 解压密码为:  2020
+
 ```
+vlmcsd-1113-2020-03-28-Hotbird64
 vlmcsd-1112-2018-10-20-Hotbird64
 vlmcsd-1111-2017-06-17-Hotbird64
 vlmcsd-1108-2017-01-19-Hotbird64
