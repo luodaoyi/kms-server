@@ -1,4 +1,7 @@
 # kms server docker image
+
+> 7zip 解压密码为:  2020
+
 ## 直接可用的地址：
 
 ```
