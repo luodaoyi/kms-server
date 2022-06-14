@@ -1,5 +1,9 @@
-kms-server:
+version: "3.7"
+
+services:
+ kms-server:
   image: luodaoyi/kms-server:latest
+  container_name: "kms-server"
   ports:
     - 1688:1688
   restart: always
